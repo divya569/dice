@@ -42,7 +42,7 @@ class Dice extends React.Component{
                 count3:null
             })
         }
-       else  if(this.state.yourDice==this.state.ComputerDice){
+       else  if(this.state.yourDice===this.state.ComputerDice){
             this.setState({
                draws:this.state.draws+1,
                msg:<h3 style={{backgroundColor:"#5d62a8",marginLeft:500,marginRight:500,padding:10,color:"white"}}>Draw</h3>
