@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media only screen and (max-width: 750px)  {
+  .img{
+    margin-left:35%;
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 400px)  {
+  .result{
+    backgroundColor:"#8a8af1";
+    margin-left:50px;
+    margin-right:50px;
+    padding:10;
+    color:"white"
+  }
+}
+@media only screen and (max-width: 400px)  {
+  .result{
+    backgroundColor:"#8a8af1";
+    margin-left:50px;
+    margin-right:50px;
+    padding:10;
+    color:"white"
+  }
+}
+h3.hi{
+  background-color: #8a8af1;
+    margin-left:500px;
+    margin-right:500px;
+    padding:10px;
+    color:"white"
+}
+@media only screen and (max-width: 400px)  {
+  h3.hi{
+    background-color: #8a8af1;
+    margin-left:50px;
+    margin-right:50px;
+    padding:10;
+    color:"white"
+  }
+}
+h3.result1{
+  background-color: slateblue;
+  margin-left:500px;
+  margin-right:500px;
+  padding:10px;
+  color:white
+}
+h3.result2{
+  background-color: green;
+  margin-left:500px;
+  margin-right:500px;
+  padding:10px;
+  color: white;
+}
+h3.result3{
+  background-color:#b63c38;
+  margin-left:500px;
+  margin-right:500px;
+  padding:10px;
+  color:white
+}
+@media only screen and (max-width: 400px)  {
+  h3.result1{
+    background-color:#5d62a8;
+    margin-left:50px;
+    margin-right:50px;
+    padding:10px;
+    color:white
+  }
+}
+@media only screen and (max-width: 400px)  {
+  h3.result2{
+    background-color:green;
+    margin-left:50px;
+    margin-right:50px;
+    padding:10px;
+    color:white
+  }
+}
+@media only screen and (max-width: 400px)  {
+  h3.result3{
+    background-color:#b63c38;
+    margin-left:50px;
+    margin-right:50px;
+    padding:10px;
+    color:white
+  }
+}
