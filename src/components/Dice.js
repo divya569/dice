@@ -19,7 +19,6 @@ class Dice extends React.Component{
         }
     }
     clickHandler=()=>{
-        { 
             var img=[]
             img[1]=<img style={{height:"100px"}} src={img1} alt="img1"/>
             img[2]=<img style={{height:"100px"}} src={img2} alt="img2"/>
@@ -27,7 +26,6 @@ class Dice extends React.Component{
             img[4]=<img style={{height:"100px"}} src={img4} alt="img4"/>
             img[5]=<img style={{height:"100px"}} src={img5} alt="img5"/>
             img[6]=<img style={{height:"100px"}} src={img6} alt="img6"/>
-        }
         this.setState({
             yourDice:(Math.floor(Math.random()*6)+1),
             ComputerDice:(Math.floor(Math.random()*6)+1)},
